@@ -46,3 +46,14 @@
 #logo {
   cursor: pointer;
 }
+
+.ino {
+  margin: 10px;
+  border: none;
+  padding: 10px 35px;
+}
+
+textarea {
+  margin: 10px;
+  padding: 45px 20px;
+}

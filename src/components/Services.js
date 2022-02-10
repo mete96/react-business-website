@@ -4,10 +4,14 @@ import commerce from "./commerce.png";
 import pencil from "./pencil.png";
 import lodo from "../lodo.jpg";
 import { Link } from "react-router-dom";
+import Header from "./Header";
+import Home from "./Home";
 
 const Services = () => {
   return (
     <>
+      <Header />
+      <Home />
       <div className="third-container">
         <div className="third3">
           <h2 className="title3"> Services</h2>
@@ -135,23 +139,6 @@ const Services = () => {
         <h2>Are you ready to scale your business?</h2>
         <p>Get in touch and let us build something amazing together!</p>
         <h4>+844 2421 599 12</h4>
-      </div>
-
-      <div className="footer">
-        <div className="left-side">
-          <img src={lodo} />
-          <p>
-            AVANTIS NETWORK is a team of experienced mobile and web developers
-          </p>
-        </div>
-        <div className="links">
-          <ul>
-            <h3>LINKS</h3>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-          </ul>
-        </div>
       </div>
     </>
   );

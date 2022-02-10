@@ -5,6 +5,7 @@ import webdev from "../webdev.svg";
 import "./Home.css";
 import Services from "./Services";
 import { Link } from "react-scroll";
+import { Link as Link1 } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -18,17 +19,10 @@ const Home = () => {
             AvantisNet is a team of highly motivated and skilled developers who
             deliver best and scalable software for your business.
           </p>
-          <button className="btn">
-            <Link
-              to="contact1"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              Contact Us
-            </Link>
-          </button>
+          <Link1 to="/contact">
+            {" "}
+            <button className="btn">Contact Us</button>
+          </Link1>
         </div>
 
         <div className="image">

@@ -1,0 +1,48 @@
+.box-containers {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: #eee;
+  width: 1000px;
+  height: 455px;
+  margin: 20px;
+  border-radius: 14px;
+  box-shadow: 0 0 10px 1px rgb(124, 120, 120);
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+textarea {
+  border: none;
+  opacity: 0.9;
+}
+
+.grids {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.send {
+  margin: 10px;
+  border: none;
+  padding: 15px 45px;
+  color: #fff;
+  opacity: 0.9;
+  width: 50%;
+  border-radius: 14px;
+  background-color: #1e3a8a;
+}
+
+.form-title {
+  margin: 10px;
+  color: #1e3a8a;
+}
